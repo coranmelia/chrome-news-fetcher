@@ -2,7 +2,7 @@
 ###### Author: Cora Wang 
 ###### Date: Dec. 2019
 
-This Chrome Extension allows users to select a string from a webpage DOM and search news about it. Tis extension is built using React.Js. 
+This Chrome Extension allows users to select a string from a webpage DOM and search news about it. The extension is built using React.Js. 
 
 ## Write-up
 

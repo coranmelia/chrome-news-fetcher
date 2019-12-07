@@ -2,157 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dc609c4-8de4-4333-96ec-54777fd17858" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/paths.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/polyfills.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpack.config.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpack.config.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-fetcher.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/app/background.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/demo/demo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Search.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pager.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Black-Webfont/generator_config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Black-Webfont/geomanist-black-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Black-Webfont/geomanist-black-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Black-Webfont/geomanist-black-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Black-Webfont/geomanist-black-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Black-Webfont/geomanist-black-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Black-Webfont/geomanist-black-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Black-Webfont/specimen_files/grid_12-825-55-15.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Black-Webfont/specimen_files/specimen_stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Black-Webfont/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Bold-Webfont/generator_config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Bold-Webfont/geomanist-bold-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Bold-Webfont/geomanist-bold-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Bold-Webfont/geomanist-bold-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Bold-Webfont/geomanist-bold-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Bold-Webfont/geomanist-bold-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Bold-Webfont/geomanist-bold-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Bold-Webfont/specimen_files/grid_12-825-55-15.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Bold-Webfont/specimen_files/specimen_stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Bold-Webfont/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/Geomanist-Regular-Italic-Webfont/generator_config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/Geomanist-Regular-Italic-Webfont/geomanist-regular-italic-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/Geomanist-Regular-Italic-Webfont/geomanist-regular-italic-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/Geomanist-Regular-Italic-Webfont/geomanist-regular-italic-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/Geomanist-Regular-Italic-Webfont/geomanist-regular-italic-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/Geomanist-Regular-Italic-Webfont/geomanist-regular-italic-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/Geomanist-Regular-Italic-Webfont/geomanist-regular-italic-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/Geomanist-Regular-Italic-Webfont/specimen_files/grid_12-825-55-15.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/Geomanist-Regular-Italic-Webfont/specimen_files/specimen_stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/Geomanist-Regular-Italic-Webfont/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/generator_config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/geomanist-book-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/geomanist-book-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/geomanist-book-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/geomanist-book-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/geomanist-book-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/geomanist-book-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/specimen_files/grid_12-825-55-15.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/specimen_files/specimen_stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-ExtraLight-Webfont/generator_config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-ExtraLight-Webfont/geomanist-extralight-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-ExtraLight-Webfont/geomanist-extralight-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-ExtraLight-Webfont/geomanist-extralight-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-ExtraLight-Webfont/geomanist-extralight-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-ExtraLight-Webfont/geomanist-extralight-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-ExtraLight-Webfont/geomanist-extralight-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-ExtraLight-Webfont/specimen_files/grid_12-825-55-15.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-ExtraLight-Webfont/specimen_files/specimen_stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-ExtraLight-Webfont/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Light-Webfont/generator_config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Light-Webfont/geomanist-light-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Light-Webfont/geomanist-light-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Light-Webfont/geomanist-light-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Light-Webfont/geomanist-light-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Light-Webfont/geomanist-light-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Light-Webfont/geomanist-light-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Light-Webfont/specimen_files/grid_12-825-55-15.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Light-Webfont/specimen_files/specimen_stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Light-Webfont/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Medium-Webfont/generator_config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Medium-Webfont/geomanist-medium-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Medium-Webfont/geomanist-medium-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Medium-Webfont/geomanist-medium-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Medium-Webfont/geomanist-medium-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Medium-Webfont/geomanist-medium-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Medium-Webfont/geomanist-medium-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Medium-Webfont/specimen_files/grid_12-825-55-15.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Medium-Webfont/specimen_files/specimen_stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Medium-Webfont/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Italic-Webfont/generator_config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Italic-Webfont/geomanist-regular-italic-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Italic-Webfont/geomanist-regular-italic-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Italic-Webfont/geomanist-regular-italic-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Italic-Webfont/geomanist-regular-italic-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Italic-Webfont/geomanist-regular-italic-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Italic-Webfont/geomanist-regular-italic-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Italic-Webfont/specimen_files/grid_12-825-55-15.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Italic-Webfont/specimen_files/specimen_stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Italic-Webfont/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Webfont/generator_config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Webfont/geomanist-regular-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Webfont/geomanist-regular-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Webfont/geomanist-regular-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Webfont/geomanist-regular-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Webfont/geomanist-regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Webfont/geomanist-regular-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Webfont/specimen_files/grid_12-825-55-15.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Webfont/specimen_files/specimen_stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Webfont/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Thin-Webfont/generator_config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Thin-Webfont/geomanist-thin-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Thin-Webfont/geomanist-thin-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Thin-Webfont/geomanist-thin-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Thin-Webfont/geomanist-thin-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Thin-Webfont/geomanist-thin-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Thin-Webfont/geomanist-thin-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Thin-Webfont/specimen_files/grid_12-825-55-15.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Thin-Webfont/specimen_files/specimen_stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Thin-Webfont/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Ultra-Webfont/generator_config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Ultra-Webfont/geomanist-ultra-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Ultra-Webfont/geomanist-ultra-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Ultra-Webfont/geomanist-ultra-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Ultra-Webfont/geomanist-ultra-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Ultra-Webfont/geomanist-ultra-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Ultra-Webfont/geomanist-ultra-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Ultra-Webfont/specimen_files/grid_12-825-55-15.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Ultra-Webfont/specimen_files/specimen_stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Ultra-Webfont/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/geomanist_webfont_license.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/registerServiceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -185,8 +34,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="417">
-                <caret line="64" column="114" selection-start-line="64" selection-start-column="114" selection-end-line="64" selection-end-column="114" />
+              <first_editor relative-caret-position="195">
+                <caret line="13" column="87" lean-forward="true" selection-start-line="13" selection-start-column="87" selection-end-line="13" selection-end-column="87" />
               </first_editor>
               <second_editor />
             </state>
@@ -290,12 +139,12 @@
       <option name="presentableId" value="Default" />
       <updated>1575689282055</updated>
       <workItem from="1575689283674" duration="267000" />
-      <workItem from="1575690091951" duration="3440000" />
+      <workItem from="1575690091951" duration="3641000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3707000" />
+    <option name="totallyTimeSpent" value="3908000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-57" y="23" width="1632" height="777" extended-state="0" />
@@ -352,8 +201,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="417">
-            <caret line="64" column="114" selection-start-line="64" selection-start-column="114" selection-end-line="64" selection-end-column="114" />
+          <first_editor relative-caret-position="195">
+            <caret line="13" column="87" lean-forward="true" selection-start-line="13" selection-start-column="87" selection-end-line="13" selection-end-column="87" />
           </first_editor>
           <second_editor />
         </state>
