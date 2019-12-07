@@ -50,7 +50,7 @@ class Main extends React.Component {
                         }
                     }).then(function(result) {
                         // select top 20 news
-                        console.log(result.data);
+                        // console.log(result.data);
                         this.setState({
                             initial: false,
                             headlines: result.data.articles.slice(0,20)
@@ -167,7 +167,7 @@ class Main extends React.Component {
     render() {
         function handleClickX(e) {
             e.preventDefault();
-            console.log('The link was clicked.');
+            // console.log('The link was clicked.');
             let element = document.getElementById('my-extension-root');
             // TO-DO change to add class
             element.style.display = 'none';
