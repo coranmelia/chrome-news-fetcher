@@ -11,13 +11,13 @@ The purpose of this application is to help users fetch news that they are intere
 users have to copy the keyword and send it to google search, and then select "News" tab in order to get the news.
 For example, if I want to search about Stuart Weitzman's recent news and 
 see if the company has been purchased by some other companies (because they are constantly on sale recently!). If 
- I simply search the keyword on google, I will be puzzled by the google shopping bring 
+ I simply search the keyword on google, I will be puzzled by the google shopping ads. 
 
-The application aims to create a shortcut for news search. It could be interesting because I labelled
- the source of the news, so for example, a republican user may identify the source of the news and only select those that 
+The application aims to create a shortcut for News search. It could be interesting because I labelled
+ the source of the news, so for example, a republican user may identify the source of the news and only read those that 
  he/she is interested in. 
  
-The target audience of my application is people who ONLY want to search about news and do not want to 
+The target audience of my application is people who ONLY want to search about News and do not want to 
 be confused by other types of information (e.g. shopping ads). 
 
 ##### Part 2: How users will interact with this application
@@ -29,7 +29,7 @@ Use case (make sure install & build first):
 * Click on the app Icon on top of the browser and open the pop up window, then use the search bar to search `keyword`
 
 Outcome:
-* User is able to find articles about the keyword. A maximum of 4 pages (20 pieces of news in total) 
+* User is able to find articles about the keyword. A maximum of 4 pages (20 pieces of latest News in total) 
     will be displayed. Clicking on an article will take user to a new tab to read this article. 
 * User is not able to find articles about the keyword, the application will remind user "Sorry, we are not able
  to find an article that matches your search. Try another search!"
