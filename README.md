@@ -1,58 +1,96 @@
-# React Chrome Extension
-We have open sourced the boilerplate of chrome extension with ReactJs using inject page strategy. Read [detailed blog](https://medium.com/@satendra02/create-chrome-extension-with-reactjs-using-inject-page-strategy-137650de1f39)
+# News Fetcher Chrome Extension
+###### Author: Cora Wang 
+###### Date: Dec. 2019
 
+This Chrome Extension allows users to select a string from a webpage DOM and search news about it. Tis extension is built using React.Js. 
 
-The boilerplate is to quickly create a chrome extension using ReactJs, The motivation behind creating a boilerplate was:
-1. Instead of chrome's ready-made popup, We wanted our own page injected into DOM as a sidebar for better UX.
+## Write-up
 
-2. We wanted to use ReactJs for the Component-based approach, Routing, and its build mechanism.
+##### Part 1: Overview
+The purpose of this application is to help users fetch news that they are interested. Without such an application,
+users have to copy the keyword and send it to google search, and then select "News" tab in order to get the news.
+For example, if I want to search about Stuart Weitzman's recent news and 
+see if the company has been purchased by some other companies (because they are constantly on sale recently!). If 
+ I simply search the keyword on google, I will be puzzled by the google shopping bring 
 
-3. We need to make sure that the extension CSS should not conflict with the host page styles in any case.
+The application aims to create a shortcut for news search. It could be interesting because I labelled
+ the source of the news, so for example, a republican user may identify the source of the news and only select those that 
+ he/she is interested in. 
+ 
+The target audience of my application is people who ONLY want to search about news and do not want to 
+be confused by other types of information (e.g. shopping ads). 
 
+##### Part 2: How users will interact with this application
+Interaction type:
+*Chrome Extension (web browser)
 
-## Features
+Use case (make sure install & build first):
+* Select a string from the webpage DOM and right click to select "Search Articles about `keyword`
+* Click on the app Icon on top of the browser and open the pop up window, then use the search bar to search `keyword`
 
-- Used ReactJs to write chrome extension
-- Injecting extension to host page as content script
-- Utilized the Chrome messaging API
-- Isolated extension CSS using Iframe
+Outcome:
+* User is able to find articles about the keyword. A maximum of 4 pages (20 pieces of news in total) 
+    will be displayed. Clicking on an article will take user to a new tab to read this article. 
+* User is not able to find articles about the keyword, the application will remind user "Sorry, we are not able
+ to find an article that matches your search. Try another search!"
 
-## Installation
->Make sure you have latest **NodeJs** version installed
+##### Part 3: Library used
+- Used React framework to build the chrome extension
+    * I used react to build the chrome extension because I want to learn more about react and building 
+    a chrome tool using this framework allows me to have a deeper understanding of the structure of this framework
+    * I used Page Injection strategy to insert the extension as a sidebar (used Iframe)
+    * This tool is the skeleton of my chrome extension
+- Used Chrome messaging API to communicate between the background page and the content page
+    * I have to use this because the messaging API allows me to fetch the message (i.e. the keyword I selected from the webpage DOM) and pass it 
+    to the page that I injected.
+    * I called the API from background.js and set a listener in content.js to receive the message
+    * This tool add to my website by allowing the interact with website DOM
+- Used Axios to call the News API and fetch recent news
+    * I used this tool because it is a convenient way of calling API from other sites.
+    * I used this tool by giving it the API address and passing APIkey and search keyword to it,
+    and let it return news articles to me. 
 
-Clone repo
+##### Part 4: Changes made to original design
+
+ I originally wanted to build an image fetcher which would allow users to use brush to select an image
+ and search it on google image, but google image API only allows URL input which means that I have to find a server, 
+ upload the image, and then fetch the URL and pass it to google image. This process is not feasible for the given amount of
+ time and is not likely to be free of charge. Therefore, I finally decided to build this application as a news fetcher as News API is 
+ friendly and it also has a big use case.
+ 
+##### Part 5: Challenges
+  
+ During the brainstorming period, I thought about building an application that fetches tweets using the Twitter API. However, through investigation, I found that twitter API is restricted by the CORS policy and 
+  I was not able to utilize their API solely with React, a pure frontend framework. Twitter API also requires my application
+  to have a server (CORS). I found that working with CORS is really difficult so I ended up found other ways out. 
+
+## Usage
+To examine code, clone repo or download Zip from:
 
 ```
-git clone https://github.com/satendra02/react-chrome-extension.git
+git clone https://github.com/coranmelia/chrome-news-fetcher.git
 ```
-Go to `react-chrome-extension` directory run
 
+Run
 ```
 yarn install
 ```
-Now build the extension using
+
+And build the extension via:
 ```
 yarn build
 ```
-You will see a `build` folder generated inside `[PROJECT_HOME]`
 
-## Adding React app extension to Chrome
+## Deploy
 
-In Chrome browser, go to chrome://extensions page and switch on developer mode. This enables the ability to locally install a Chrome extension.
+![Demo](./public/demo/demo.gif)
 
-<img src="https://cdn-images-1.medium.com/max/1600/1*OaygCwLSwLakyTqCADbmDw.png" />
+To watch the completed demo, refer to: https://youtu.be/4uSSRukigkA 
 
-Now click on the `LOAD UNPACKED` and browse to `[PROJECT_HOME]\build` ,This will install the React app as a Chrome extension.
+To see the product in action, add the extension at chrome://extensions page, and click `LOAD UNPACKED` to add the build folder.
 
-When you go to any website and click on extension icon, injected page will toggle.
+##### References
+Google Chrome API: https://developer.chrome.com/apps/api_index 
 
-<img src="https://cdn-images-1.medium.com/max/1600/1*bXJYfvrcHDWKwUZCrPI-8w.png" />
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/satendra02/react-chrome-extension/. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-
-## License
-
-The repo is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+Learn about React + Chrome Extension: (several youtube videos and articles, only listed the main one)
+https://itnext.io/create-chrome-extension-with-reactjs-using-inject-page-strategy-137650de1f39 

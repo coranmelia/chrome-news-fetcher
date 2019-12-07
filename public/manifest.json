@@ -1,0 +1,32 @@
+{
+  "short_name": "News Fetcher",
+  "name": "News Fetcher",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Retrieves news related to the keyword you would like to search",
+  "background": {
+    "scripts": ["app/background.js"]
+  },
+  "browser_action": {},
+  "content_scripts" : [
+    {
+      "matches": [ "<all_urls>" ],
+      "css": ["/static/css/app.css"],
+      "js": ["/static/js/content.js"]
+    }
+  ],
+  "permissions": [
+    "contextMenus",
+    "storage",
+    "tabs"
+  ],
+  "icons": {
+    "16": "logo-small.png",
+    "48": "logo-small.png",
+    "128": "logo-small.png"
+  },
+  "web_accessible_resources":[
+    "/static/css/content.css", "fontawesome-webfont.woff2", "/fonts/fontawesome-webfont.woff2","*.woff", "*.ttf", "*.woff2","fonts/*", "/fonts/*", "/fonts/*.woff2"
+  ],
+  "content_security_policy": "script-src 'self' 'sha256-GgRxrVOKNdB4LrRsVPDSbzvfdV4UqglmviH9GoBJ5jk='; object-src 'self'"
+}
