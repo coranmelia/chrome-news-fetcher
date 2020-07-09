@@ -1,16 +1,19 @@
 @font-face {
-  font-family: Geomanist-Black;
-  src:local(Geomanist-Black), url('./font/Geomanist-Black-Webfont/geomanist-black-webfont.woff')format('woff');
+  font-family: 'Geomanist Black';
+  font-style: normal;
+  src: local('Geomanist Black'), url('./font/Geomanist-Black-Webfont/geomanist-black-webfont.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: Geomanist-Regular;
-  src:local(Geomanist-Regular), url('./font/Geomanist-Regular-Webfont/geomanist-regular-webfont.woff')format('woff');
+  font-family: 'Geomanist Regular';
+  font-style: normal;
+  src: local('Geomanist Regular'), url('./font/Geomanist-Regular-Webfont/geomanist-regular-webfont.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: Geomanist-Thin;
-  src:local(Geomanist-Thin), url('./font/Geomanist-Thin-Webfont/geomanist-thin-webfont.woff')format('woff');
+  font-family: 'Geomanist Thin';
+  font-style: normal;
+  src: local('Geomanist Thin'), url('./font/Geomanist-Thin-Webfont/geomanist-thin-webfont.ttf') format('truetype');
 }
 
 body {

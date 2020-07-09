@@ -1,10 +1,12 @@
 # News Fetcher Chrome Extension
 ###### Author: Cora Wang 
-###### Date: Dec. 2019
+###### Last Update Date: Dec. 2019
 
 This Chrome Extension allows users to select a string from a webpage DOM and search news about it. The extension was built with React.Js. 
 
-## Write-up
+[update: News API has recently changed their policy and the developer plan only allows fetching within the localhost :( Follow the instruction under `Usage` section to run the extension on your local server!]
+
+## Introduction
 
 ##### Part 1: Overview
 The purpose of this application is to help users fetch news that they are interested in. Without such an application, users have to copy the keyword and send it to google search, and then select the "News" tab in order to get the news.
