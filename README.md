@@ -4,7 +4,8 @@
 
 This Chrome Extension allows users to select a string from a webpage DOM and search news about it. The extension was built with React.Js. 
 
-[update: News API has recently changed their policy and the developer plan only allows fetching within the localhost :( Follow the instruction under `Usage` section to run the extension on your local server!]
+##### Update: July.2020 
+News API has recently updated their policy so a developer plan only allows fetching within the localhost now :( Follow the instruction under `Usage` section to run the extension on your local server!
 
 ## Introduction
 
